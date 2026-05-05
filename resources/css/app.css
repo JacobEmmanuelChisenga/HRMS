@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Sidebar transitions */
+[x-cloak] {
+    display: none !important;
+}
+
+/* Smooth sidebar transitions */
+.sidebar-transition {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Collapsible menu transitions */
+.collapsible-menu {
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
